@@ -1,0 +1,10 @@
+# Site settings
+title: disf.asia
+email: your-email@domain.com
+description: "test"
+baseurl: ""
+url: "http://disf.asia"
+
+# Build settings
+markdown: kramdown
+permalink: pretty

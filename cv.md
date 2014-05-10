@@ -1,5 +1,5 @@
 ## Virail
-_March 2013 - Now _
+_March 2013 - Now_
 > Virail is train ticket and times database, with a minimal, easy to use UI.
 
 After the second train company did its debut in Italy, I adapted the flyght aggregator websites model to the train's world. Currently available in Italy, Spain, France and Germany.

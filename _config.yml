@@ -4,7 +4,13 @@ email: your-email@domain.com
 description: "test"
 baseurl: ""
 url: "http://disf.asia"
+paginate: 5
+paginate_path: ":num"
 
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+gems: ['jekyll-less']
+
+lessc: /usr/local/bin/lessc

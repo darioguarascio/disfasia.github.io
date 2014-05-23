@@ -1,0 +1,269 @@
+/* Tile sizes */
+blockquote {
+  background: #E0E0E0;
+  border-left: 5px solid #4D4A4A;
+  font-family: 'Titillium Web', sans-serif;
+}
+.overlay {
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0.85)), color-stop(100%, rgba(0, 0, 0, 0.85)));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.85) 0%, rgba(0, 0, 0, 0.85) 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9000000', endColorstr='#d9000000', GradientType=0);
+  /* IE6-9 */
+}
+header {
+  height: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+header .row {
+  height: 100%;
+}
+header .row .logo {
+  display: block;
+  -webkit-transform: rotate(333deg);
+}
+header .row div {
+  height: 100%;
+}
+.navbar {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #080808;
+}
+.navbar .lang-selection li a {
+  outline: 0;
+  color: #777;
+  text-decoration: line-through;
+}
+.navbar .lang-selection li a:hover {
+  color: #777;
+}
+.navbar .lang-selection li a.active {
+  padding-bottom: 11px;
+  border-bottom: 4px solid #999;
+  color: #ccc ;
+  text-decoration: none;
+}
+.container .row.simple[role=main] {
+  background: #eeeeee;
+  border: 2px solid #860818;
+}
+.container .row.simple .tile {
+  float: right !important;
+  right: -15px;
+}
+.container .row.simple .tile_hover {
+  display: block !important;
+}
+.container .row.simple .tile_hover.intro {
+  height: 40px !important;
+  bottom: 0 !important;
+  top: auto !important;
+}
+.container .row.simple .tile_hover p {
+  display: none !important;
+}
+.container .tile {
+  font-family: 'Titillium Web', sans-serif;
+  float: left;
+  position: relative;
+}
+.container .tile .post {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.25);
+  position: relative;
+  color: #fff;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: #860818;
+  background-clip: content-box;
+  background-size: cover;
+}
+.container .tile .post:hover {
+  text-decoration: none;
+}
+.container .tile .post .tile_preview {
+  height: 100%;
+  width: 100%;
+  display: table;
+}
+.container .tile .post .tile_preview span {
+  display: table-cell;
+  vertical-align: middle;
+}
+.container .tile .post:hover .tile_hover {
+  display: block;
+}
+.container .tile .post .tile_hover {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: none;
+  width: 100%;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  line-height: normal;
+  padding: 10px;
+}
+.container .tile .post .tile_hover.intro {
+  text-align: center;
+  height: 100%;
+  top: 0;
+}
+.container .tile .post .tile_hover.intro p {
+  display: table-cell;
+  margin: 0 0 10px;
+  vertical-align: middle;
+}
+.container .tile .post .tile_hover time {
+  display: block;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+.container .tile .post.picture {
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-clip: content-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container .tile .post.single_word {
+  text-align: center;
+}
+.container .tile .post.two_words {
+  text-align: center;
+}
+.container .tile .post.three_words {
+  text-align: center;
+}
+.container .tile .post.youtube::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url("/img/icons/play.png") no-repeat 50% 50%;
+}
+@media (max-width: 767px) {
+  .tile {
+    padding: 5px 10px;
+    height: 150px;
+    line-height: 150px;
+    width: 100%;
+  }
+  .tile .post .tile_preview {
+    padding: 0 30%;
+  }
+  .tile .post .tile_hover.intro p {
+    height: 137px;
+  }
+  .tile .post.picture,
+  .tile .post.youtube {
+    background-position: center center;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .tile .post.single_word {
+    font-size: 45px;
+    line-height: 150px;
+  }
+  .tile .post.two_words {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .tile .post.three_words {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .tile {
+    padding: 15px;
+    height: 187px;
+    width: 187px;
+  }
+  .tile .post .tile_hover.intro p {
+    height: 137px;
+  }
+  .tile .post.single_word {
+    font-size: 34px;
+    line-height: 157px;
+  }
+  .tile .post.two_words {
+    font-size: 37px;
+    line-height: 40px;
+  }
+  .tile .post.three_words {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media (min-width: 992px) {
+  .tile {
+    padding: 15px;
+    height: 194px;
+    width: 194px;
+  }
+  .tile .post .tile_hover.intro p {
+    height: 144px;
+  }
+  .tile .post.single_word {
+    font-size: 34px;
+    line-height: 164px;
+  }
+  .tile .post.two_words {
+    font-size: 37px;
+    line-height: 40px;
+  }
+  .tile .post.three_words {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+@media (min-width: 1200px) {
+  .tile {
+    padding: 15px;
+    height: 234px;
+    width: 234px;
+  }
+  .tile .post .tile_hover.intro p {
+    height: 184px;
+  }
+  .tile .post.single_word {
+    font-size: 45px;
+    line-height: 204px;
+  }
+  .tile .post.two_words {
+    font-size: 45px;
+    line-height: 45px;
+  }
+  .tile .post.three_words {
+    font-size: 32px;
+    line-height: 45px;
+  }
+}
+body {
+  background-color: #221e1e;
+  background-image: url("/img/pattern.png");
+  font-family: 'Open Sans', sans-serif;
+}
+body.simple {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

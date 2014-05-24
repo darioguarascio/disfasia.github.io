@@ -135,6 +135,9 @@ header .row div {
   bottom: 10px;
   right: 10px;
 }
+.container .tile .post.cat-how-to {
+  background: #344658;
+}
 .container .tile .post.picture {
   padding: 0;
   position: relative;

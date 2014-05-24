@@ -4,7 +4,7 @@
   {% endfor %}
   class="tile {{ post.tile_size }}">
     {% if post.style == 'single_word' or post.style == 'two_words' or post.style == 'three_words' %}
-    <a class="post {{ post.style }}" href="/{{ post.permalink }}/" id="{{ post.permalink }}">
+    <a class="post {{ post.style }} cat-{{ post.category }}" href="/{{ post.permalink }}/" id="{{ post.permalink }}">
         <div class="tile_preview">
             <span>{{ post.title }}</span>
         </div>

@@ -1,0 +1,104 @@
+---
+layout: travels
+title: Travels
+permalink: /travels/
+
+places:
+ - title: London
+   coords: 51.501757,-0.14186
+   set: 72157640435728466
+   slug: london
+   photo: https://farm3.staticflickr.com/2908/14162296847_2f232633b1_z_d.jpg
+   me: https://farm6.staticflickr.com/5077/14325649216_fa8098095b_z_d.jpg
+
+ - title: MIT, Boston
+   coords: 42.360637,-71.094035
+   set: 72157640447185304
+   slug: boston
+   photo: https://farm3.staticflickr.com/2936/14162178210_21c9421556_z_d.jpg
+   me: https://farm4.staticflickr.com/3857/14347181252_1d698a6fcf_z_d.jpg
+
+ - title: Amsterdam
+   coords: 52.37239,4.897744
+   set: 72157640531613154
+   slug: amsterdam
+   photo: https://farm4.staticflickr.com/3860/14347950404_e176ea7b9c_z_d.jpg
+   me: https://farm6.staticflickr.com/5158/14162165680_c21fb48485_z_d.jpg
+
+ - title: JERONIMOS MONASTERY, Lisboa
+   coords: 38.69849,-9.206761
+   set: 72157640504832586
+   slug: lisbona
+   photo: https://farm6.staticflickr.com/5540/14324380724_25e22ee489_z_d.jpg
+   me: https://farm6.staticflickr.com/5584/14324375794_6e75e3b2a3_z_d.jpg
+
+ - title: Mole Antonelliana, Turin
+   coords: 45.069399,7.693151
+   set: 72157640267950816
+   slug: turin
+   photo: https://farm3.staticflickr.com/2920/14321730351_0b2de8ecf4_z_d.jpg
+   me: https://farm6.staticflickr.com/5528/14138443340_a05402ba6e_z_d.jpg
+
+ - title: Sila, Southern Italy
+   slug: sila
+   photo: https://farm6.staticflickr.com/5311/14345265853_6047b33ee4_z_d.jpg
+   me: https://farm3.staticflickr.com/2912/14138542627_7469f97ae3_z_d.jpg
+
+ - title: Wein
+   coords: 48.185217,16.312291
+   set: 72157640562868673
+   slug: wein
+   photo: https://farm4.staticflickr.com/3729/14287270756_2dc9a89d12_z_d.jpg 
+   me: https://farm4.staticflickr.com/3673/14307075691_3bf8396ff6_z_d.jpg
+
+ - title: Liberty Island
+   coords: 40.690385,-74.044851
+   set: 72157640553568955
+   slug: liberty-island
+   photo: https://farm6.staticflickr.com/5591/14123796930_bfd5b32ce4_z_d.jpg
+   me: https://farm6.staticflickr.com/5114/14123750889_92df16faab_z_d.jpg
+
+ - title: Brooklyn Bridge, NYC
+   coords: 40.706702,-73.997065
+   set: 72157640553568955
+   slug: nyc
+   photo: https://farm3.staticflickr.com/2909/14308544982_b065a1c096_z_d.jpg
+   me: https://farm6.staticflickr.com/5481/14307063332_232798c0af_z_d.jpg
+---
+
+<div class="row">
+    <div class="col-md-7">
+        {% for place in page.places %}
+        <div id="{{ place.slug }}">
+            <h2><a name="{{ place.slug }}">#</a> {{ place.title }}</h2>
+            <img width="100%" src="{{ place.me }}" />
+        </div>
+        {% endfor %}
+    </div>
+
+
+    <div class="col-md-5" id="travelssb">
+        <div data-spy="affix" data-offset-top="40">
+      
+            <div id="travelmap"></div>
+
+            <ul class="nav travelssb">
+            {% for place in page.places %}
+                <li data-coords="{{ place.coords }}">
+                  <h2>{{ place.title }}</h2>
+
+                  <img class="place" src="{{ place.photo }}" />
+                  <a href="#{{ place.slug}}">#</a>
+                  <ul class="flickr" rel="{{ place.set }}">
+                  </ul>
+                </li>
+            {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+</div>
+
+<!--
+
+-->

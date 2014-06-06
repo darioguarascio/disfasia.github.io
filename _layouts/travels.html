@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include head.html %}
+
+<style type="text/css">
+.affix {
+  top:16px;
+}
+#travelssb > div {
+    width: 100%;
+
+}
+#travelssb ul li {
+  display: none;
+}
+#travelssb ul li img.place {
+  width: 66%;
+}
+#travelssb ul li.active {
+  display: block;
+}
+#travelssb ul.flickr {
+    padding: 0;
+}
+#travelssb ul.flickr li {
+    display: block;
+    float: left;
+}
+#travelmap {
+    height: 150px;
+}
+</style>
+  <body class="travels" data-spy="scroll" data-target="#travelssb">
+    {% include header.html %}
+    <div class="container">
+        {{ content }}
+    </div>
+    {% include scripts.html %}
+
+
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    
+    <script>
+
+//$(document).ready(function(){
+        
+        var myLatLng = new google.maps.LatLng( 50, 50 ),
+            myOptions = {
+                zoom: 4,
+                center: myLatLng,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+                },
+            map = new google.maps.Map( $('#travelmap')[0], myOptions ),
+            marker = new google.maps.Marker( {position: myLatLng, map: map} );
+        
+        marker.setMap( map );        
+
+    $('#travelssb > div').width($('#travelssb > div').width());
+    $('#travelssb ul li').on('activate.bs.scrollspy', function (e) {
+        //document.location.hash = 
+
+        var $li = $(this), $flickr = $('.flickr', $li);
+        var coords = $li.data('coords').split(',');
+
+        if (coords.length == 2){ 
+            var newpos = new google.maps.LatLng( coords[0], coords[1] )
+            marker.setPosition(  newpos );
+            map.panTo( newpos );
+        }
+
+        if (!$flickr.data('loaded')) {
+            $.getJSON("http://api.flickr.com/services/rest/?",
+                {
+                    method: "flickr.photosets.getPhotos",
+                    api_key: "6a611031a41f71e0a475e9eec463fbad",
+                    photoset_id: $flickr.attr('rel'),
+                    format: "json", nojsoncallback: "1",
+                    per_page: 9
+                },
+                function(data) {console.log(data);
+                    for (item in data.photoset.photo) {
+                        item = data.photoset.photo[item];
+                        var photoURL = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_s.jpg'
+                        console.log($flickr);
+                        $flickr.append(
+                            $('<li></li>').append(
+                                $('<img/>', { 
+                                   src: photoURL, 
+                                   alt:'MyAlt'
+                                })
+                            )
+                        )
+                    }
+                    $flickr.data('loaded', 1);
+            });  
+        }
+     });
+//});
+    </script>
+
+  </body>
+</html>

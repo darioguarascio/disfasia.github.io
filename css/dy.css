@@ -41,6 +41,13 @@ header .row div {
   border: none;
   border-bottom: 1px solid #080808;
 }
+.navbar .nav.icons {
+  font-size: 24px;
+}
+.navbar .nav.icons li > a {
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
 .navbar .lang-selection li a {
   outline: 0;
   color: #777;

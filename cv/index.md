@@ -9,9 +9,9 @@ _March 2013 - Now_
 
 > Virail is train ticket and times database, with a minimal, easy to use UI.
 
-After the second train company did its debut in Italy, I adapted the flyght aggregator websites model to the train's world. Currently available in Italy, Spain, France and Germany.
+Based on a flight aggregator model. Currently available in Italy, Spain, France and Germany.
 
-**My role**: `Founder, CTO` `♛`
+**My role**: `Founder`, `CTO`
 
 **Tags**: `php` `css` `less` `javascript` `html` `bootstrap` `laravel` `mongodb` `high avaliability` `horizontal scaling` `python` `scrapy` `munin` `monit` `server admin` `clustering` `bash scripting`
 
@@ -25,7 +25,7 @@ _February 2014 - Now_ @ _Koh Samui, Thailand_
 > citizen.tv is a video competition platform.
 
 
-**My role**: `Frontend developer.` `♟`
+**My role**: `Frontend developer`
 
 **Tags**: `php` `css` `less` `html` `postgres sql` `javascript` `python` `zend framework` `ajax`
 
@@ -38,10 +38,10 @@ _September 2013 - January 2014 - Now (Freelancing)_ @ _Bangkok, Thailand_
 
 > AskHanuman is an online car insurance, credit card and loans comparison tool.
 
-Interesting chance to get to know south-eastern asian market. 
+Exposed to the south-eastern asian market. 
 
 
-**My role**: `Frontend/backend lead developer.` `♞`
+**My role**: `Frontend/backend lead developer`
 
 **Tags**: `php` `css` `html` `mysql` `javascript` `dba` `serveradmin` `crawling` `api` `python` `mongodb` 
 
@@ -54,9 +54,9 @@ _September 2011 - March 2013_ @ _New York / Brescia (Italy) / Milano_
 
 > Yoodeal is a deal aggregator and personal shopper.
 
-In the period of Groupon boom, many similar sites born. Yoodeal was created to help the user have a better overview of thousands of daily offers. After a first funding in NYC, and a second round from various Italian investors, Yoodeal hired a team of 4 people to develop a classification and ranking engine.
+During Groupon's boom, Yoodeal was created to help the user have a better overview of thousands of daily offers. After a first funding in NYC, and a second round from various Italian investors, Yoodeal hired a team of 4 people to develop a classification and ranking engine.
 
-**My role**: `Founder, Harcore frontend/backend developer.` `♝`
+**My role**: `Founder, Harcore frontend/backend developer`
 
 **Tags**: `php` `css` `html` `mysql` `javascript` `nodejs` `dba` `serveradmin` `crawling` `api` `python` `varnish` `mongodb` 
 
@@ -71,10 +71,10 @@ _2004 - 2001_ @ _Anywhere_, _March 2011 - September 2011_ @ _New York_
 
 > Freesme was a cross OS messaging platform.
 
-The idea behind WhatsApp 5 years before WhatsApp, with a terrible execution.
-Born as a JackSMS around 2004, grown up as a freetime project to cut down high SMS prices, Freesmee succeeded to create a loving community and attract various developers with the intent of building a versatile multiplatform service. Freesmee got an angel funding to take the next step, but overall resources were insufficient to reach the huge goals the project required. It is currently abandoned.
+The idea behind WhatsApp 5 years before WhatsApp, with not enough funding.
+Born as a JackSMS around 2004, grown up as a freetime project to cut down high SMS prices, Freesmee succeeded to create a loving community and attract various developers with the intent of building a versatile multiplatform service. Freesmee got an angel funding to take the next step, but overall resources were insufficient to reach the project's goal.
 
-**My role**: `Lead frontend/backend developer.` `♚`
+**My role**: `Lead frontend/backend developer`
 
 **Tags**: `php` `css` `html` `mysql` `javascript` `nodejs` `dba` `serveradmin` `crawling` `api`
 
@@ -91,7 +91,7 @@ _November 2010 - February 2011_
 
 SosTariffe hired me to develop a custom crawler to collect mobile phone usage data from providers' website in order to make an easier and more effective calculation of a better tariff.
 
-**My role**: `Frontend developer.` `♟`
+**My role**: `Frontend developer`
 
 **Tags**: `php` `css` `html` `javascript` `crawling`
 
@@ -108,7 +108,7 @@ _September 2009 - October 2010_ @ _Milano_
 In Assicurazione.it I started from scratch the development of the Spanish version of their online car insurance comparison tool, [seguros.es]. My first professional web related experience.
 
 
-**My role**: `Frontend/Backend developer.` `♜`
+**My role**: `Frontend/Backend developer`
 
 **Tags**: `php` `mysql` `css` `html` `javascript` `serveradmin`
 
@@ -124,7 +124,7 @@ _November 2008 - July 2009_ @ _Milano_
 
 I worked as a junior IT consultant for HP's banking clients: Aureo SGR, Eurizon SGR, where the main project, called "Conti dormienti," was about notifying all bank clients whose accounts were unused for more than 10 years.
 
-**My role**: `IT Consultant` `♟`
+**My role**: `IT Consultant`
 
 **Tags**: `sql` `MS SQLServer` `stored procedures` `SourceSafe`
 

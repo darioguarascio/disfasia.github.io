@@ -6,28 +6,47 @@
 .affix {
   top:16px;
 }
+.self .img-wrapper {
+    background-color: black;
+}
+.self img {
+    opacity: 0.4;
+}
+.self.active img {
+    opacity: 1;
+}
+
 #travelssb > div {
     width: 100%;
-
 }
-#travelssb ul li {
+#travelssb ul.travelssb > li {
   display: none;
 }
 #travelssb ul li img.place {
-  width: 66%;
+  width: 288px;
+  float:left;
 }
 #travelssb ul li.active {
   display: block;
 }
-#travelssb ul.flickr {
+#travelssb ul.flickr-side {
     padding: 0;
+    width: 170px;
+    float:left;
+    height: 191px;
+    overflow: hidden;
 }
-#travelssb ul.flickr li {
+#travelssb ul.flickr-side li {
     display: block;
     float: left;
+    margin: 0 0 10px 10px;
 }
 #travelmap {
     height: 150px;
+    margin-bottom: 10px;
+}
+#travelmap .gmnoprint {
+    display: none !important;
 }
 </style>
   <body class="travels" data-spy="scroll" data-target="#travelssb">
@@ -46,6 +65,10 @@
         
         var myLatLng = new google.maps.LatLng( 50, 50 ),
             myOptions = {
+                streetViewControl: false,
+                zoomControl: false,
+                scaleControl: false,
+                mapTypeControl: false,
                 zoom: 4,
                 center: myLatLng,
                 mapTypeId: google.maps.MapTypeId.ROADMAP
@@ -58,9 +81,13 @@
     $('#travelssb > div').width($('#travelssb > div').width());
     $('#travelssb ul li').on('activate.bs.scrollspy', function (e) {
         //document.location.hash = 
+        console.log(this);
+        var $li = $(this), $flickrSide = $('.flickr-side', $li);
 
-        var $li = $(this), $flickr = $('.flickr', $li);
-        var coords = $li.data('coords').split(',');
+        var coords = $li.data('coords').split(','), $rel = $li.attr('rel');
+
+        $('.self').removeClass('active');
+        $('#'+ $rel).addClass('active');
 
         if (coords.length == 2){ 
             var newpos = new google.maps.LatLng( coords[0], coords[1] )
@@ -68,21 +95,22 @@
             map.panTo( newpos );
         }
 
-        if (!$flickr.data('loaded')) {
+        if (!$flickrSide.data('loaded')) {
             $.getJSON("http://api.flickr.com/services/rest/?",
                 {
                     method: "flickr.photosets.getPhotos",
                     api_key: "6a611031a41f71e0a475e9eec463fbad",
-                    photoset_id: $flickr.attr('rel'),
+                    photoset_id: $flickrSide.attr('rel'),
                     format: "json", nojsoncallback: "1",
-                    per_page: 9
+                    per_page: 6
                 },
                 function(data) {console.log(data);
+                    var cnt = 0;
                     for (item in data.photoset.photo) {
+                        cnt++;
                         item = data.photoset.photo[item];
                         var photoURL = 'http://farm' + item.farm + '.static.flickr.com/' + item.server + '/' + item.id + '_' + item.secret + '_s.jpg'
-                        console.log($flickr);
-                        $flickr.append(
+                        $flickrSide.append(
                             $('<li></li>').append(
                                 $('<img/>', { 
                                    src: photoURL, 
@@ -91,7 +119,7 @@
                             )
                         )
                     }
-                    $flickr.data('loaded', 1);
+                    $flickrSide.data('loaded', 1);
             });  
         }
      });

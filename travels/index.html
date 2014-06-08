@@ -4,6 +4,13 @@ title: Travels
 permalink: /travels/
 
 places:
+ - title: Washington
+   coords: 38.889663,-77.009275
+   set: 72157640501785214
+   slug: washington
+   photo: https://farm6.staticflickr.com/5492/12303645093_f890c30909_z_d.jpg
+   me: https://farm4.staticflickr.com/3855/14370186524_641eeb39f3_z_d.jpg
+
  - title: London
    coords: 51.501757,-0.14186
    set: 72157640435728466
@@ -51,6 +58,13 @@ places:
    photo: https://farm4.staticflickr.com/3729/14287270756_2dc9a89d12_z_d.jpg 
    me: https://farm4.staticflickr.com/3673/14307075691_3bf8396ff6_z_d.jpg
 
+ - title: Bear Mountain
+   coords: 43.516689,-73.841858
+   set: 72157640465743083
+   slug: bear-mountain
+   photo: https://farm8.staticflickr.com/7429/12290040566_c6264bd7b4_z_d.jpg
+   me: https://farm4.staticflickr.com/3919/14357915904_bb26347c52_z_d.jpg
+
  - title: Liberty Island
    coords: 40.690385,-74.044851
    set: 72157640553568955
@@ -69,9 +83,11 @@ places:
 <div class="row">
     <div class="col-md-7">
         {% for place in page.places %}
-        <div id="{{ place.slug }}">
+        <div id="{{ place.slug }}" class="self">
             <h2><a name="{{ place.slug }}">#</a> {{ place.title }}</h2>
-            <img width="100%" src="{{ place.me }}" />
+            <div class="img-wrapper">
+              <img width="100%" src="{{ place.me }}" />
+            </div>
         </div>
         {% endfor %}
     </div>
@@ -84,13 +100,15 @@ places:
 
             <ul class="nav travelssb">
             {% for place in page.places %}
-                <li data-coords="{{ place.coords }}">
-                  <h2>{{ place.title }}</h2>
+                <li data-coords="{{ place.coords }}" rel="{{ place.slug}}">
+                  <!--<h2>{{ place.title }}</h2>-->
 
-                  <img class="place" src="{{ place.photo }}" />
-                  <a href="#{{ place.slug}}">#</a>
-                  <ul class="flickr" rel="{{ place.set }}">
-                  </ul>
+                    <img class="place" src="{{ place.photo }}" />
+
+                    <ul class="flickr flickr-side" rel="{{ place.set }}"></ul>
+                    <ul class="flickr flickr-bottom" rel="{{ place.set }}"></ul>
+
+                    <a class="hidden" href="#{{ place.slug}}">#</a>                  
                 </li>
             {% endfor %}
             </ul>

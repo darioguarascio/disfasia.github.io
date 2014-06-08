@@ -1,7 +1,6 @@
 ---
 layout: simple
 title: CV
-permalink: /cv/
 ---
 
 ## Virail

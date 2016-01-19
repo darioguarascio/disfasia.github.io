@@ -9,7 +9,7 @@ paginate_path: ":num"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: :categories/:title
 
 gems: ['jekyll-less']
 

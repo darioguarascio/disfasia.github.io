@@ -1,34 +1,32 @@
-<div 
-  {% for lang in post.languages %}
-    data-lang-{{ lang }}="1"
-  {% endfor %}
-  class="tile {{ post.tile_size }}">
-    {% if post.style == 'single_word' or post.style == 'two_words' or post.style == 'three_words' %}
-    <a class="post {{ post.style }} cat-{{ post.category }}" href="/{{ post.permalink }}/" id="{{ post.permalink }}">
+
+
+<div class="tile">
+    <a data-coords="{{post.coords.lat}},{{post.coords.lng}}" class="post {{ post.style }}" href="{{ post.url }}" style="background-image: url({{ post.thumb }})">
         <div class="tile_preview">
-            <span>{{ post.title }}</span>
+            <span{%if post.tile_text_extra_css%} style="{{post.tile_text_extra_css}}"{%endif%}>{{ post.title }}</span>
         </div>
-        <div class="tile_hover overlay {% if post.intro %}intro{% endif %}">
+{% comment %}
+
+<!--         <div class="tile_hover overlay {% if post.intro %}intro{% endif %}">
             {% if post.intro %}
             <p>{{ post.intro }}</p>
             {% endif %}
             <time datetime="{{ post.date }}">{{ post.date }}</time>
         </div>
+ -->
+{% endcomment %}
     </a>
-    {% elsif post.style == 'picture' %}
-    <a class="post {{ post.style }}" href="/{{ post.permalink }}/" style="background-image:url({{ post.thumb }})">
-        <div class="tile_hover overlay">
-            <p>{{ post.intro }}</p>
-            <time datetime="{{ post.date }}">{{ post.date }}</time>
-        </div>
-    </a>
-    {% elsif post.style == 'youtube' %}
+{% comment %}
+<!--
+    elsif post.style == 'youtube'
     <a class="post {{ post.style }}" href="/{{ post.permalink }}/" style="background-image:url({{ post.thumb }})" rel-video="{{ post.video }}">
         <div class="tile_hover overlay">
             <p>{{ post.intro }}</p>
             <time datetime="{{ post.date }}">{{ post.date }}</time>
         </div>
     </a>
-    {% endif %}
+    endif 
+-->
+{% endcomment %}
 
 </div>

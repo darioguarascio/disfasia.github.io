@@ -297,6 +297,26 @@ header {
             }
         }
     }
+
+    body.travels {
+        .affix {
+            left: 0;
+            width: auto;
+            /* position: absolute !important; */
+            top: 0;
+            width: 100%;
+            padding: 0 15px;
+            bottom: 16px;
+            
+            &#travelmap {
+                height: 80px;
+            }
+
+            &.nav {
+                display:none;
+            }
+        }
+    }
 }
 
 @media (min-width: @screen-sm-min) {

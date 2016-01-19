@@ -2,12 +2,46 @@
 layout: default
 ---
 
-{% include header.html %}
-
-<div class="container">
-    <div class="row">
+<div id="main_container" class="container">
+    <div class="row row-first">
         {% for post in paginator.posts %}
+
+            {% capture post_year %}{{ post.date | date: "%Y" }}{% endcapture %}
+            {% if curYear != post_year %}
+    </div>
+    <h1 class="year_switch"><span>{{ post_year }}</span></h1>
+    <div class="row">
+                {% assign curYear = post_year %}
+            {% endif %}
+
             {% include tile.html %}
+
         {% endfor %}
     </div>
 </div>
+
+
+<div class="container">
+  <ul class="pager">
+    {% if paginator.previous_page %}
+      <li class="previous">
+        <a href="{{ paginator.previous_page_path }}" aria-label="Previous">
+          <span aria-hidden="true">&laquo;</a>
+        </a>
+      </li>  
+    {% endif %}
+    <!--
+      <li>
+        <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+      </li>
+    -->
+    {% if paginator.next_page %}
+      <li class="next">
+        <a href="{{ paginator.next_page_path }}" aria-label="Next">
+          <span aria-hidden="true">&raquo;</a>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</div>
+

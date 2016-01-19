@@ -1,14 +1,31 @@
 ---
 layout: default
 ---
-<div class="post">
-
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
+<div class="container">
+T.B.D.
 </div>
+<!--
+{% assign page_id = page.url | split: '/' %}
+{% assign page_id = page_id[1] %}
+
+<div id="world-map-markers" style="width: 300px; height: 300px" data-lat="{{ page.coords.lat }}" data-lng="{{ page.coords.lng }}"></div>
+
+<div id="controls"></div>
+<div id="loading"></div>
+<div id="slideshow"></div>
+<div id="caption"></div>
+<div id="thumbs">
+    <ul class="thumbs noscript">
+		{% for photo in site.data[page_id] %}
+        <li>
+            <a class="thumb" name="optionalCustomIdentifier" href="{{photo.img}}" title="#{{photo.exif.shuttercount}}" style="width:100%">
+                <img src="{{photo.thumb}}" alt="" />
+            </a>
+            <div class="caption">
+                {{ photo.exif.model }} - {{photo.exif.fnumber}} {{photo.exif.exposuretime}} - 
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+-->

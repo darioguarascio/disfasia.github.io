@@ -4,7 +4,10 @@ layout: default
 <div class="container">
     <div class="row">
         <div class="col-xs-12 col-md-8">
-            <h1></h1>
+            <h1 style="height: 120px; line-height: 120px">
+                {{ page.title }}
+
+            </h1>
         </div>
         <div class="col-xs-12 col-md-4">
             <div id="world-map-markers" style="width: auto; height: 120px" data-country="{{ page.country }}" data-lat="{{ page.coords.lat }}" data-lng="{{ page.coords.lng }}"></div>
@@ -105,7 +108,7 @@ layout: default
 
                 <figure class="col-md-2 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
-                        <img src="{{photo.thumb  | replace: '_s.','_q.' }}}}" itemprop="thumbnail" alt="xxx" />
+                        <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="xxx" />
                     </a>
                     <figcaption itemprop="caption description">{{ photo.exif.model }} - {{photo.exif.fnumber}} {{photo.exif.focallengthin35mmformat}} - {{photo.exif.exposuretime}}</figcaption>
                 </figure>

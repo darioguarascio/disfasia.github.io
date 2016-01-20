@@ -3,6 +3,8 @@ page_type: photo
 layout: default
 ---
 {% capture page_id %}{{ page.categories }}{% endcapture %}
+{% capture page_parent %}/{{page_id}}{% endcapture %}
+{% for post in site.posts %}{% if post.url == page_parent %}{% assign parent_post = post %}{%endif%}{% endfor %}
 <div class="post">
 
   <header class="post-header">

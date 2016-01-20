@@ -10,10 +10,16 @@
 {% if page.page_type == 'album' %}
     {% assign page_id = page.url | split: '/' %}
     {% assign page_id = page_id[1] %}
-
     <meta property="og:title" content="{{ page.title }} ({{site.countries[page.country].name}})">
     <meta property="og:description" content="Photoset: {{ page.title }} - {{ site.data[page_id].size }} photos">
     <meta property="og:image" content="{{ page.thumb | replace: '_n.', '_b.' }}">
+{% else if page.page_type == 'photo' %}
+{% capture page_id %}{{ page.categories }}{% endcapture %}
+{% capture page_parent %}/{{page_id}}{% endcapture %}
+{% for post in site.posts %}{% if post.url == page_parent %}{% assign parent_post = post %}{%endif%}{% endfor %}
+    <meta property="og:title" content="#{{page.n}} / {{parent_post.title }}">
+    <meta property="og:description" content="Photo #{{page.n}} of photoset: {{parent_post.title }}">
+    <meta property="og:image" content="{{ site.data[page_id][page.n].img | replace: '_n.', '_b.' }}">
 {% endif %}
 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,700|Source+Code+Pro">

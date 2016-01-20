@@ -40,9 +40,9 @@ $(document).ready(function() {
 
 
 });
-
+/*
 jQuery(document).ready(function($) {
-    var gallery = $('#thumbs').galleriffic({
+        var gallery = $('#thumbs').galleriffic({
         delay:                     3000, // in milliseconds
         numThumbs:                 20, // The number of thumbnails to show page
         preloadAhead:              40, // Set to -1 to preload all images
@@ -65,7 +65,7 @@ jQuery(document).ready(function($) {
         enableKeyboardNavigation:  true, // Specifies whether keyboard navigation is enabled
         autoStart:                 false, // Specifies whether the slideshow should be playing or paused when the page first loads
         syncTransitions:           false, // Specifies whether the out and in transitions occur simultaneously or distinctly
-        defaultTransitionDuration: 1000, // If using the default transitions, specifies the duration of the transitions
+        defaultTransitionDuration: 500, // If using the default transitions, specifies the duration of the transitions
         onSlideChange:             undefined, // accepts a delegate like such: function(prevIndex, nextIndex) { ... }
         onTransitionOut:           undefined, // accepts a delegate like such: function(slide, caption, isSync, callback) { ... }
         onTransitionIn:            undefined, // accepts a delegate like such: function(slide, caption, isSync) { ... }
@@ -75,14 +75,20 @@ jQuery(document).ready(function($) {
         onImageRemoved:            undefined  // accepts a delegate like such: function(imageData, $li) { ... }
     });
 });
-
+*/
  $(function(){
-        var lat = $('#world-map-markers').data('lat'), lng = $('#world-map-markers').data('lng');
+        var lat = $('#world-map-markers').data('lat'), lng = $('#world-map-markers').data('lng'), country = $('#world-map-markers').data('country');
+        var region_values = {}; region_values[country] = '#D5E4CA';
         $('#world-map-markers').vectorMap({
+           zoomMax: 22,
           //zoomOnScroll: false,
           //zoomMin: 3,
           //panOnDrag: false,
           zoomButtons : false,
+
+onRegionLabelShow: function(e, el, code){
+    e.preventDefault();
+},
           onRegionTipShow: function(e, el, code){
             e.preventDefault();
           },
@@ -98,26 +104,45 @@ jQuery(document).ready(function($) {
           hoverColor: false,
           markerStyle: {
             initial: {
-              fill: '#F8E23B',
-              stroke: '#383f47'
+                fill: '#f4a460',
+                stroke: '#383f47',
+                "fill-opacity": 1,
+                "stroke-width": 1,
+                "stroke-opacity": 1,
+                r: 5
             }
           },
+regionStyle: {
+      initial: {
+        fill: '#A0AB98'
+      },
+      selected: {
+        fill: '#A0AB98'
+      },
+     hover: {
+         "fill-opacity": 1
+     }
+    },
           focusOn: {
 lat: lat,
 lng: lng,
-scale: 7
+scale: 12
 },
-colors:          {
-                    it:'#33250B'},
+
 
 series: {
+    // regions: [{
+    //         scale: {
+    //             '1': '#4169E1'
+    //         },
+    //         attribute: 'fill',
+    //         values: { 'BE': '1', 'NL': '1', 'DE': '1' }
+    //     }] 
     regions: [{
-        values: {
-            'IT': '#3e9d01'
-        },
+        values: region_values,
         attribute: 'fill'
-    }] },
-
+    }] 
+    },
           backgroundColor: '#383f47',
           markers: [
             {latLng: [lat, lng] },

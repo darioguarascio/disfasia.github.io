@@ -404,3 +404,29 @@ body.simple {
 .pager .previous a {
   float: left;
 }
+
+path.jvectormap-region.jvectormap-element:hover {
+    cursor: default !important;
+}
+
+#thumbs ul li.selected {
+  border: 2px solid #fff;
+}
+
+.my-gallery {
+  width: 100%;
+  float: left;
+}
+.my-gallery img {
+  width: 100%;
+  height: auto;
+}
+.my-gallery figure {
+  display: block;
+  float: left;
+  margin: 0 5px 5px 0;
+  width: 150px;
+}
+.my-gallery figcaption {
+  display: none;
+}

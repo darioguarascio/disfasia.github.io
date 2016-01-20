@@ -1,0 +1,55 @@
+.self img {
+    opacity: 0.2;
+}
+.self.active img {
+    opacity: 1;
+}
+
+#travelssb > div {
+    width: 100%;
+}
+
+#travelssb ul.travelssb > li {
+  display: none;
+}
+#travelssb ul li.active {
+  display: block;
+}
+h2, h2 a {
+  color: #fff;
+}
+
+
+@media (min-width: 768px) {
+  .affix {
+    top:16px;
+  }
+  .self .img-wrapper {
+      background-color: black;
+  }
+
+  #travelssb ul li img.place {
+    width: 288px;
+    float:left;
+  }
+
+  #travelssb ul.flickr-side {
+      padding: 0;
+      width: 170px;
+      float:left;
+      height: 191px;
+      overflow: hidden;
+  }
+  #travelssb ul.flickr-side li {
+      display: block;
+      float: left;
+      margin: 0 0 10px 10px;
+  }
+  #travelmap {
+      height: 150px;
+      margin-bottom: 10px;
+  }
+  #travelmap .gmnoprint {
+      display: none !important;
+  }
+}

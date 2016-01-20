@@ -1,0 +1,16 @@
+---
+layout: default
+---
+{% capture page_id %}{{ page.categories }}{% endcapture %}
+<div class="post">
+
+  <header class="post-header">
+    <h1>{{ page.title }} {{ page_id }}</h1>
+    <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+  </header>
+
+  <article class="post-content">
+  {{ content }}
+  </article>
+
+</div>

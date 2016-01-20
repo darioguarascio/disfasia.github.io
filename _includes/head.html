@@ -1,25 +1,31 @@
 <head>
-<!--
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
-    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
--->
 
     <meta charset="utf-8">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>disf.asia</title>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,700|Source+Code+Pro' rel='stylesheet' type='text/css'>
+
+{% if page.page_type == 'album' %}
+    {% assign page_id = page.url | split: '/' %}
+    {% assign page_id = page_id[1] %}
+
+    <meta property="og:title" content="{{ page.title }} ({{site.countries[page.country].name}})">
+    <meta property="og:description" content="Photoset: {{ page.title }} - {{ site.data[page_id].size }} photos">
+    <meta property="og:image" content="{{ page.thumb | replace: '_n.', '_b.' }}">
+{% endif %}
+
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700|Titillium+Web:400,700|Source+Code+Pro">
     <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/pygments.css">
-    <link rel="stylesheet" href="/css/icomoon.css">
+    <!-- <link rel="stylesheet" type="text/css" href="/css/pygments.css"> -->
+    <!-- <link rel="stylesheet" href="/css/icomoon.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="/css/tiles.css" />     -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="/css/travels.css" /> -->
+
 
     <link rel="stylesheet" type="text/css" href="/css/dy.css" />
-    <link rel="stylesheet" type="text/css" href="/css/tiles.css" />    
-    <link rel="stylesheet" type="text/css" href="/css/travels.css" />
 
 
 
@@ -36,7 +42,7 @@
     <link rel="icon" href="/favicon.png" type="image/x-icon">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- WARNING: Respond.js doesn"t work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>

@@ -14,3 +14,7 @@ permalink: :categories/:title
 gems: ['jekyll-less']
 
 lessc: /usr/local/bin/lessc
+
+countries:
+  DE:
+    name: Germany

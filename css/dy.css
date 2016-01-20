@@ -67,6 +67,10 @@ footer {
   font-weight: bold;
   padding-left: 10px;
 }
+.navbar-header a:hover {
+  text-decoration: none;
+  color: default;
+}
 
 /*.navbar .nav.icons {
   font-size: 24px;

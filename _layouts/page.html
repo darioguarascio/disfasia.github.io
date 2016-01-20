@@ -71,7 +71,7 @@ layout: default
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
                         <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="xxx" />
                     </a>
-                    <figcaption itemprop="caption description">{{ photo.exif.model }} &mdash; {{photo.exif.fnumber}}; {{photo.exif.focallengthin35mmformat}}; {{photo.exif.exposuretime}} - <a href="/{{page_id}}/{{photoNumber}}/">#{{photoNumber}} in {{ page.title }}</a></figcaption>
+                    <figcaption itemprop="caption description">{{ photo.exif.model }} &mdash; {{photo.exif.fnumber}}; {{photo.exif.focallengthin35mmformat}}; {{photo.exif.exposuretime}}<!-- - <a href="/{{page_id}}/{{photoNumber}}/">#{{photoNumber}} in {{ page.title }}</a>--></figcaption>
                 </figure>
                 {% assign photoNumber = photoNumber | plus: 1 %}
                 {% endfor %}

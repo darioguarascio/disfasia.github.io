@@ -16,5 +16,29 @@ gems: ['jekyll-less']
 lessc: /usr/local/bin/lessc
 
 countries:
+  AT:
+    name: Austria
+  CH:
+    name: Switzerland
   DE:
     name: Germany
+  ES:
+    name: Spain
+  FR:
+    name: France
+  IT:
+    name: Italy
+  NL: 
+    name: Netherlands
+  PT:
+    name: Portugal
+  UK:
+    name: United Kingdom
+  US:
+    name: United States
+  TH:
+    name: Thailand
+  VN:
+    name: Vietnam
+  KH:
+    name: Cambodia

@@ -168,6 +168,8 @@ h1 {
 */}
 .container .tile .post .tile_preview {
   height: 100%;
+  width: 100%;
+  max-width: 100%;
   display: table;
   color: #dbdbdb;
   font-weight: bold;

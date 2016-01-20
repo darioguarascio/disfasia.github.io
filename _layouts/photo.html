@@ -5,15 +5,11 @@ layout: default
 {% capture page_id %}{{ page.categories }}{% endcapture %}
 {% capture page_parent %}/{{page_id}}{% endcapture %}
 {% for post in site.posts %}{% if post.url == page_parent %}{% assign parent_post = post %}{%endif%}{% endfor %}
-<div class="post">
 
-  <header class="post-header">
-    <h1>{{ page.title }} {{ page_id }}</h1>
+<article class="container">
+	<h1><a href="{{ page_parent }}/">{{parent_post.title }}</a>: #{{ page.n }}</h1>
+	<img src="{{ site.data[page_id][page.n].photo }}" style="width: 100%; height: auto; border: 7px solid black"/>
+    <!--
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-  </header>
-
-  <article class="post-content">
-  {{ content }}
-  </article>
-
-</div>
+    -->
+</article>

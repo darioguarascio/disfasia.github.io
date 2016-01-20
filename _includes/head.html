@@ -1,15 +1,14 @@
 <head>
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-
-
     <meta charset="utf-8">
-
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta property="og:site_name" content="disfasia" />
 
 {% if page.page_type == 'album' %}
     {% assign page_id = page.url | split: '/' %}
     {% assign page_id = page_id[1] %}
+    <title>{{ page.title }} ({{site.countries[page.country].name}})</title>
     <meta property="og:title" content="{{ page.title }} ({{site.countries[page.country].name}})">
     <meta property="og:description" content="Photoset: {{ page.title }} - {{ site.data[page_id].size }} photos">
     <meta property="og:image" content="{{ page.thumb | replace: '_n.', '_b.' }}">
@@ -17,8 +16,10 @@
 {% capture page_id %}{{ page.categories }}{% endcapture %}
 {% capture page_parent %}/{{page_id}}{% endcapture %}
 {% for post in site.posts %}{% if post.url == page_parent %}{% assign parent_post = post %}{%endif%}{% endfor %}
-    <meta property="og:title" content="#{{page.n}} / {{parent_post.title }}">
-    <meta property="og:description" content="Photo #{{page.n}} of photoset: {{parent_post.title }}">
+{% assign photo = site.data[page_id][page.n] %}
+    <title>Photo #{{page.n}} of photoset: {{parent_post.title }}</title>
+    <meta property="og:title" content="Photo #{{page.n}} of photoset: {{parent_post.title }}">
+    <meta property="og:description" content="{{ photo.exif.model }} &mdash; {{photo.exif.fnumber}}; {{photo.exif.focallengthin35mmformat}}; {{photo.exif.exposuretime}}">
     <meta property="og:image" content="{{ site.data[page_id][page.n].img | replace: '_n.', '_b.' }}">
 {% endif %}
 

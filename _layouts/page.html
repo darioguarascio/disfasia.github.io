@@ -103,7 +103,7 @@ layout: default
 
                 {% for photo in site.data[page_id] %}
 
-                <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+                <figure class="col-md-2 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
                         <img src="{{photo.thumb  | replace: '_s.','_q.' }}}}" itemprop="thumbnail" alt="xxx" />
                     </a>

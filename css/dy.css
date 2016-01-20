@@ -423,11 +423,14 @@ path.jvectormap-region.jvectormap-element:hover {
   height: auto;
 }
 .my-gallery figure {
-  display: block;
+/*  display: block;
   float: left;
   margin: 0 5px 5px 0;
-  width: 150px;
+width: 150px;*/
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
+
 .my-gallery figcaption {
   display: none;
 }

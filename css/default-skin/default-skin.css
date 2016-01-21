@@ -237,6 +237,10 @@ a.pswp__share--pinterest:hover {
   background: #CCC;
   color: #CE272D; }
 
+a.pswp__share--whatsapp:hover {
+  background: #50C75B;
+  color: #fff; }
+
 a.pswp__share--download:hover {
   background: #DDD; }
 

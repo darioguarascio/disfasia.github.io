@@ -17,10 +17,11 @@
 {% capture page_id %}{{ page.categories }}{% endcapture %}
 {% capture page_parent %}/{{page_id}}{% endcapture %}
 {% assign photo = site.data[page_id][page.n] %}
+{% assign pageIndex = page.n | minus: 1 %}
     <title>Photo #{{page.n}} of photoset: {{ page.parent_title }}</title>
     <meta property="og:title" content="Photo #{{page.n}} of photoset: {{page.parent_title }}">
     <meta property="og:description" content="{{ photo.exif.model }} &mdash; {%if photo.exif.fnumber%}{{photo.exif.fnumber}}; {%endif%}{%if photo.exif.focallengthin35mmformat%}{{photo.exif.focallengthin35mmformat}}; {%endif%}{%if photo.exif.exposuretime%}{{photo.exif.exposuretime}}; {%endif%} {%if photo.exif.iso%}ISO: {{photo.exif.iso}}; {%endif%}">
-    <meta property="og:image" content="{{ site.data[page_id][page.n].img | replace: '_n.', '_b.' }}">
+    <meta property="og:image" content="{{ site.data[page_id][pageIndex].img | replace: '_n.', '_b.' }}">
 {% elsif page.page_type == 'index' %}
     <title>disfasia: incapable of speech</title>
     <meta property="og:title" content="disfasia: incapable of speech">

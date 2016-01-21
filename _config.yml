@@ -20,6 +20,8 @@ countries:
     name: Austria
   CH:
     name: Switzerland
+  CZ:
+    name: Czech Republic
   DE:
     name: Germany
   ES:

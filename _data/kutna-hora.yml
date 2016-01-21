@@ -119,21 +119,6 @@
       exposurecompensation: -0.33 EV
       focallength: 46.3 mm
       focallengthin35mmformat: 69 mm
-  - thumb: https://farm2.staticflickr.com/1459/24408354282_311b03ffe6_s.jpg
-    img: https://farm2.staticflickr.com/1459/24408354282_311b03ffe6_b.jpg
-    photo: https://farm2.staticflickr.com/1459/24408354282_ec6304b1c6_o.jpg
-    h: 3264
-    w: 4896
-    exif:
-      model: X-T10
-      modifydate: 2016:01:21 10:17:31
-      datetimeoriginal: 2015:10:18 13:55:19
-      exposuretime: 0.071 sec (1/14)
-      fnumber: f/4.0
-      iso: 1600
-      exposurecompensation: -0.33 EV
-      focallength: 55 mm
-      focallengthin35mmformat: 83 mm
   - thumb: https://farm2.staticflickr.com/1475/24221107620_def364ff85_s.jpg
     img: https://farm2.staticflickr.com/1475/24221107620_def364ff85_b.jpg
     photo: https://farm2.staticflickr.com/1475/24221107620_3cb234cfb6_o.jpg

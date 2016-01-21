@@ -31,6 +31,24 @@ layout: default
         </a>
       </li>  
     {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+    {% if page == paginator.page %}
+      <li>
+        <em><span>{{ page }}</span></em>
+      </li>
+    {% elsif page == 1 %}
+      <li>
+        <a href="/"><span aria-hidden="true">{{ page }}</span></a>
+      </li>
+
+    {% else %}
+      <li>
+        <a href="/{{ page }}"><span>{{ page }}</span></a>
+      </li>
+    {% endif %}
+  {% endfor %}
+
     <!--
       <li>
         <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>

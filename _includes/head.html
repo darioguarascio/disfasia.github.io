@@ -8,17 +8,17 @@
 {% if page.page_type == 'album' %}
     {% assign page_id = page.url | split: '/' %}
     {% assign page_id = page_id[1] %}
-    <title>{{ page.title }} ({{site.countries[page.country].name}})</title>
-    <meta property="og:title" content="{{ page.title }} ({{site.countries[page.country].name}})">
-    <meta property="og:description" content="Photoset: {{ page.title }} - {{ site.data[page_id].size }} photos">
+    {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}
+    <title>{{ page.title }}, {{site.countries[page.country].name}}, {{ post_year }} - {{ site.data[page_id].size }} photos # disf.asia</title>
+    <meta property="og:title" content="Photos in {{ page.title }}, {{site.countries[page.country].name}}">
+    <meta property="og:description" content="Location: {{ page.title }} - {{ site.data[page_id].size }} photos taken in {{ post_year }}">
     <meta property="og:image" content="{{ page.thumb | replace: '_n.', '_b.' }}">
 {% elsif page.page_type == 'photo' %}
 {% capture page_id %}{{ page.categories }}{% endcapture %}
 {% capture page_parent %}/{{page_id}}{% endcapture %}
-{% for post in site.posts %}{% if post.url == page_parent %}{% assign parent_post = post %}{%endif%}{% endfor %}
 {% assign photo = site.data[page_id][page.n] %}
     <title>Photo #{{page.n}} of photoset: {{parent_post.title }}</title>
-    <meta property="og:title" content="Photo #{{page.n}} of photoset: {{parent_post.title }}">
+    <meta property="og:title" content="Photo #{{page.n}} of photoset: {{page.parent_title }}">
     <meta property="og:description" content="{{ photo.exif.model }} &mdash; {{photo.exif.fnumber}}; {{photo.exif.focallengthin35mmformat}}; {{photo.exif.exposuretime}}">
     <meta property="og:image" content="{{ site.data[page_id][page.n].img | replace: '_n.', '_b.' }}">
 {% elsif page.page_type == 'index' %}

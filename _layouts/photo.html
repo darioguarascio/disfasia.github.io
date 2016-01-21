@@ -4,12 +4,22 @@ layout: default
 ---
 {% capture page_id %}{{ page.categories }}{% endcapture %}
 {% capture page_parent %}/{{page_id}}{% endcapture %}
-{% for post in site.posts %}{% if post.url == page_parent %}{% assign parent_post = post %}{%endif%}{% endfor %}
+{% assign index = page.n | minus: 1 %}
 
 <article class="container">
-	<h1><a href="{{ page_parent }}/">{{parent_post.title }}</a>: #{{ page.n }}</h1>
-	<img src="{{ site.data[page_id][page.n].photo }}" style="width: 100%; height: auto; border: 7px solid black"/>
+	<h1><a href="{{ page_parent }}/">{{page.parent_title }}</a>: #{{ page.n }}</h1>
+	<img src="{{ site.data[page_id][index].photo }}" style="width: 100%; height: auto; border: 7px solid black"/>
     <!--
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     -->
 </article>
+
+<!--
+{% if site.data[page_id].size > page.n %}
+NEXT
+{% endif %}
+
+{% if page.n <= site.data[page_id].size and page.n > 1 %}
+PREVIOUS
+{% endif %}
+-->

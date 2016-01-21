@@ -390,8 +390,11 @@ body.simple {
 }
 
 
-.pager .next a, .pager .previous a {
+.pager li a {
     color: #555F4D;
+}
+
+.pager .next a, .pager .previous a {
     font-weight: bold;
     font-size:150%;
 }
@@ -437,4 +440,14 @@ width: 150px;*/
 
 .my-gallery figcaption {
   display: none;
+}
+
+.row.album_info {
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #555F4D;
+}
+.row.album_info #world-map-markers {
+  width: auto;
+  height: 90px
 }

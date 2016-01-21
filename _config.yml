@@ -30,6 +30,8 @@ countries:
     name: France
   IT:
     name: Italy
+  LA:
+    name: Laos
   NL: 
     name: Netherlands
   PT:

@@ -39,10 +39,22 @@ $(document).ready(function() {
 $(function() {
     if ($('body#t_album').size()) {
 
-        var lat = $('#world-map-markers').data('lat'),
-            lng = $('#world-map-markers').data('lng'),
-            country = $('#world-map-markers').data('country');
-        var region_values = {};
+        var country = $('#world-map-markers').data('country');
+        var region_values = {}, markers_values = [];
+        if (!!$('#world-map-markers').data('coords')) {
+            var coords = $('#world-map-markers').data('coords').split(';')
+            for (latLng in coords) {
+                if (!coords[latLng]) continue; 
+                latLng = coords[latLng].split(',');
+                markers_values.push({
+                    latLng: [latLng[0], latLng[1]]
+                });
+            }
+        } else {
+            markers_values.push({
+                latLng: [$('#world-map-markers').data('lat'), $('#world-map-markers').data('lng')]
+            });
+        }
         region_values[country] = '#D5E4CA';
         $('#world-map-markers').vectorMap({
             zoomMax: 22,
@@ -88,8 +100,8 @@ $(function() {
                 }
             },
             focusOn: {
-                lat: lat,
-                lng: lng,
+                lat: markers_values[0].latLng[0],
+                lng: markers_values[0].latLng[1],
                 scale: 12
             },
 
@@ -101,9 +113,7 @@ $(function() {
                 }]
             },
             backgroundColor: '#383f47',
-            markers: [{
-                latLng: [lat, lng]
-            }, ]
+            markers: markers_values
         });
 
         var initPhotoSwipeFromDOM = function(gallerySelector) {

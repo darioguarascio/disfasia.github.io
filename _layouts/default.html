@@ -12,14 +12,14 @@
 
     <footer>
       <div class="container">
-        <ul class="list-unstyled">
-        {% assign sorted_pages = (site.pages | sort: 'year', 'first') %}
-        {% for page in sorted_pages reversed %}
-          {% if page.layout == 'year' %}
-            <li><a href="/{{page.year}}/">{{page.year}}</a></li>
-          {% endif %}
-        {% endfor %}
-        </ul>
+        <div class="row">
+          <div class="col-xs-6 col-md-4">
+            <ul class="list-unstyled">
+                <!--<li><a href="/countries.html">{{ site.countries.size }} countries</a></li>-->
+                <li><a href="/years.html">{{ site.years.size }} years</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </footer>
 

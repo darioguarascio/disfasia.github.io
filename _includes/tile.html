@@ -1,9 +1,17 @@
-
+{% if include.year %}
+   {% assign post_style = "single_word" %}
+   {% capture post_url %}/year/{{ include.year }}/{% endcapture %}
+   {% assign post_title = include.year %}
+{% else %}
+   {% assign post_style = post.style %}
+   {% assign post_url   = post.url %}
+   {% assign post_title = post.title %}
+{% endif %}
 
 <div class="tile">
-    <a data-coords="{{post.coords.lat}},{{post.coords.lng}}" class="post {{ post.style }}" href="{{ post.url }}" style="background-image: url({{ post.thumb }})">
+    <a data-coords="{{post.coords.lat}},{{post.coords.lng}}" class="post {{ post_style }}" href="{{ post_url }}" style="background-image: url({{ post.thumb }})">
         <div class="tile_preview">
-            <span{%if post.tile_text_extra_css%} style="{{post.tile_text_extra_css}}"{%endif%}>{{ post.title }}</span>
+            <span{%if post.tile_text_extra_css%} style="{{post.tile_text_extra_css}}"{%endif%}>{{ post_title }}</span>
         </div>
 {% comment %}
 

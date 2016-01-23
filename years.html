@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div id="main_container" class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>{{ site.years.size }} years of pictures</h1>
+      </div>
+    </div>
+    <div class="row">
+        {% assign sorted_pages = (site.pages | sort: 'year', 'first') %}
+        {% for page in sorted_pages reversed %}
+          {% if page.layout == 'year' %}
+          {% include tile.html year=page.year %} 
+          {% endif %}
+        {% endfor %}
+
+    </div>
+</div>
+
+

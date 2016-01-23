@@ -5,477 +5,3376 @@
     h: 3274
     w: 3491
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:10
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:15:09
       exposuretime: 1/4000 sec
       fnumber: f/3.6
+      exposureprogram: Aperture-priority AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:15:09
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 8.42
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 18 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 27 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Bad exposure
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3647.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 00cc4c3e620e3d3ec056a93bd8f0583f0000803f000000000000000070c2653eb2ca4d3e648f463fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f010000000100000001000000010000000000000000000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1675/24408132242_6a01031b33_s.jpg
     img: https://farm2.staticflickr.com/1675/24408132242_6a01031b33_b.jpg
     photo: https://farm2.staticflickr.com/1675/24408132242_6803f4dd93_o.jpg
     h: 2480
     w: 1653
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:13
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:15:58
       exposuretime: 0.001 sec (1/1000)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:15:58
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 6.38
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3649.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 000000002c98a43e68b8753ed0c5283ffcff7f3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f0000000000000000000000000100000000000000ffffffff
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1583/23889670863_e4b50f9856_s.jpg
     img: https://farm2.staticflickr.com/1583/23889670863_e4b50f9856_b.jpg
     photo: https://farm2.staticflickr.com/1583/23889670863_8e579d2803_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:15
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:25:54
       exposuretime: 0.004 sec (1/250)
       fnumber: f/4.0
+      exposureprogram: Program AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:25:54
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 3.87
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 40.7 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 61 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      noisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Advanced Filter
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3654.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 0000000000000000000000000000803f0000803f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000000000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1505/24434154481_0f8e116fb9_s.jpg
     img: https://farm2.staticflickr.com/1505/24434154481_0f8e116fb9_b.jpg
     photo: https://farm2.staticflickr.com/1505/24434154481_d2afafc868_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:18
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:28:50
       exposuretime: 0.025 sec (1/40)
       fnumber: f/3.6
+      exposureprogram: Program AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:28:50
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 1.92
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 25.4 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 38 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      noisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Advanced Filter
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3655.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 00000000e07a94be3c0a57be
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1685/24220982910_fdc5c1d06c_s.jpg
     img: https://farm2.staticflickr.com/1685/24220982910_fdc5c1d06c_b.jpg
     photo: https://farm2.staticflickr.com/1685/24220982910_4c7fdc2a76_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:20
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:33:05
       exposuretime: 1/2900 sec
       fnumber: f/3.2
+      exposureprogram: Program AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:33:05
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 7.14
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 28.9 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 43 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      noisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Advanced Filter
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3664.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1687/24221026330_9fbe857447_s.jpg
     img: https://farm2.staticflickr.com/1687/24221026330_9fbe857447_b.jpg
     photo: https://farm2.staticflickr.com/1687/24221026330_7a2a316557_o.jpg
     h: 3153
     w: 4730
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:23
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:42:36
       exposuretime: 0.001 sec (1/1300)
       fnumber: f/3.6
+      exposureprogram: Aperture-priority AE
       iso: 250
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:42:36
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 7.92
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 21.4 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 32 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3677.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 000000000ad7a3be00000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1589/24148833419_2347cb957f_s.jpg
     img: https://farm2.staticflickr.com/1589/24148833419_2347cb957f_b.jpg
     photo: https://farm2.staticflickr.com/1589/24148833419_6504c5f302_o.jpg
     h: 2855
     w: 1903
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:26
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:42:57
       exposuretime: 0.001 sec (1/1800)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 250
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:42:57
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 9.21
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3679.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 0052383fd23a023fbb42d13d105f683f0000803f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f0000000000000000000000000100000000000000ffffffff
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1707/24148861439_b95918c0c7_s.jpg
     img: https://farm2.staticflickr.com/1707/24148861439_b95918c0c7_b.jpg
     photo: https://farm2.staticflickr.com/1707/24148861439_1d191a860c_o.jpg
     h: 2689
     w: 4033
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:28
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:48:12
       exposuretime: 0.006 sec (1/180)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 250
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:48:12
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 5.07
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 46.3 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 69 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3680.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 50b89e3e00000000000080bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
+  - thumb: https://farm2.staticflickr.com/1459/24408354282_311b03ffe6_s.jpg
+    img: https://farm2.staticflickr.com/1459/24408354282_311b03ffe6_b.jpg
+    photo: https://farm2.staticflickr.com/1459/24408354282_ec6304b1c6_o.jpg
+    h: 3264
+    w: 4896
+    exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
+      model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
+      modifydate: 2016:01:21 10:17:31
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
+      datetimeoriginal: 2015:10:18 13:55:19
+      exposuretime: 0.071 sec (1/14)
+      fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
+      iso: 1600
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:55:19
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -1.4
+      exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
+      focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
+      focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3686.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: b047e13db81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1475/24221107620_def364ff85_s.jpg
     img: https://farm2.staticflickr.com/1475/24221107620_def364ff85_b.jpg
     photo: https://farm2.staticflickr.com/1475/24221107620_3cb234cfb6_o.jpg
     h: 3017
     w: 3016
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:34
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:55:36
       exposuretime: 0.1 sec (1/10)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 1600
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:55:36
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.32
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 22.3 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 33 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3687.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 000000c062a8343e3e21e43c800f533ffcff7f3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000100000001000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1690/24434340061_d5fa103a30_s.jpg
     img: https://farm2.staticflickr.com/1690/24434340061_d5fa103a30_b.jpg
     photo: https://farm2.staticflickr.com/1690/24434340061_c7af351a0f_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:37
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:55:56
       exposuretime: 0.05 sec (1/20)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 1600
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:55:56
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -0.81
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 18 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 27 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3689.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 78142e3e989919be48e13abf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1524/24221172260_3245fe4c41_s.jpg
     img: https://farm2.staticflickr.com/1524/24221172260_3245fe4c41_b.jpg
     photo: https://farm2.staticflickr.com/1524/24221172260_d7e34d87ed_o.jpg
     h: 3207
     w: 4811
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:39
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:58:02
       exposuretime: 0.1 sec (1/10)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:58:02
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.27
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 27.7 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 42 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3690.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 000000006094053c0000000016a57d3fc48e7b3f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000001000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1477/24434400441_962dcc3c40_s.jpg
     img: https://farm2.staticflickr.com/1477/24434400441_962dcc3c40_b.jpg
     photo: https://farm2.staticflickr.com/1477/24434400441_41549702aa_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:42
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:59:15
       exposuretime: 0.083 sec (1/12)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:59:15
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.38
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 18 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 27 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3692.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 285c8f3e0000000014ae07bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1568/24408503682_7ce3167bbb_s.jpg
     img: https://farm2.staticflickr.com/1568/24408503682_7ce3167bbb_b.jpg
     photo: https://farm2.staticflickr.com/1568/24408503682_9d7d4b0cbf_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:45
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:59:45
       exposuretime: 0.1 sec (1/10)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:59:45
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.36
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3695.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1588/24490626346_39a39d2294_s.jpg
     img: https://farm2.staticflickr.com/1588/24490626346_39a39d2294_b.jpg
     photo: https://farm2.staticflickr.com/1588/24490626346_16a5698f73_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:47
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 13:59:49
       exposuretime: 0.1 sec (1/10)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 13:59:49
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.36
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3696.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1547/23888652894_f03372d1a6_s.jpg
     img: https://farm2.staticflickr.com/1547/23888652894_f03372d1a6_b.jpg
     photo: https://farm2.staticflickr.com/1547/23888652894_42e43bbdb0_o.jpg
     h: 2448
     w: 3672
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:49
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:00:30
       exposuretime: 0.059 sec (1/17)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:00:30
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -0.71
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 37.4 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 56 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3697.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1690/23888685524_320f8124de_s.jpg
     img: https://farm2.staticflickr.com/1690/23888685524_320f8124de_b.jpg
     photo: https://farm2.staticflickr.com/1690/23888685524_f75f197dce_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:51
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:01:34
       exposuretime: 0.04 sec (1/25)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:01:34
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -1.35
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 46.3 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 69 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3702.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1568/24221315460_2f301b3e07_s.jpg
     img: https://farm2.staticflickr.com/1568/24221315460_2f301b3e07_b.jpg
     photo: https://farm2.staticflickr.com/1568/24221315460_d8e430b09b_o.jpg
     h: 2026
     w: 3040
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:54
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:02:00
       exposuretime: 0.038 sec (1/26)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:02:00
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -0.79
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 30.2 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 45 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3704.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1579/24490711306_2f5116679c_s.jpg
     img: https://farm2.staticflickr.com/1579/24490711306_2f5116679c_b.jpg
     photo: https://farm2.staticflickr.com/1579/24490711306_19559c07cf_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:55
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:06:51
       exposuretime: 0.033 sec (1/30)
       fnumber: f/2.8
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:06:51
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -1.63
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 18 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 27 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3707.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1720/23888746194_1c067ebe79_s.jpg
     img: https://farm2.staticflickr.com/1720/23888746194_1c067ebe79_b.jpg
     photo: https://farm2.staticflickr.com/1720/23888746194_a8a398216c_o.jpg
     h: 2820
     w: 4231
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:17:58
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:07:41
       exposuretime: 0.077 sec (1/13)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 2000
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:07:41
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.18
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3711.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1694/23888756424_94316b5348_s.jpg
     img: https://farm2.staticflickr.com/1694/23888756424_94316b5348_b.jpg
     photo: https://farm2.staticflickr.com/1694/23888756424_da991e0ee0_o.jpg
     h: 2373
     w: 2373
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:00
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:11:32
       exposuretime: 0.02 sec (1/50)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:11:32
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -1.13
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 40.7 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 61 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 1
+      facepositions: 1450 1078 1941 1572
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3716.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 9899993e703d8a3e3c0a57be
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1546/24220782160_ed5f66abed_s.jpg
     img: https://farm2.staticflickr.com/1546/24220782160_ed5f66abed_b.jpg
     photo: https://farm2.staticflickr.com/1546/24220782160_cceb02f5ab_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:05
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:16:56
       exposuretime: 0.036 sec (1/28)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:16:56
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -1.23
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3722.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1578/24516320535_d2f6a5c51c_s.jpg
     img: https://farm2.staticflickr.com/1578/24516320535_d2f6a5c51c_b.jpg
     photo: https://farm2.staticflickr.com/1578/24516320535_dc215362e0_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:07
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:17:22
       exposuretime: 0.059 sec (1/17)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:17:22
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -2.51
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Manual
+      afpointset: No
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: Blur Warning
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3725.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1586/24220727790_7c0bcec367_s.jpg
     img: https://farm2.staticflickr.com/1586/24220727790_7c0bcec367_b.jpg
     photo: https://farm2.staticflickr.com/1586/24220727790_909d342b15_o.jpg
     h: 2620
     w: 3930
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:10
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:18:24
       exposuretime: 0.029 sec (1/34)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:18:24
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -1.24
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Manual
+      afpointset: No
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3726.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1697/24407974822_750d79c67f_s.jpg
     img: https://farm2.staticflickr.com/1697/24407974822_750d79c67f_b.jpg
     photo: https://farm2.staticflickr.com/1697/24407974822_38dec390c3_o.jpg
     h: 4278
     w: 2310
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:12
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:20:19
       exposuretime: 0.005 sec (1/200)
       fnumber: f/3.2
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:20:19
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 1.29
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 27.7 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 42 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3729.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 0000000000000000000000000000803f0000803f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f000000000000000000000000010000000000000001000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1720/23888056244_2b55759981_s.jpg
     img: https://farm2.staticflickr.com/1720/23888056244_2b55759981_b.jpg
     photo: https://farm2.staticflickr.com/1720/23888056244_9d98567062_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:14
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:21:23
       exposuretime: 0.013 sec (1/75)
       fnumber: f/3.2
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:21:23
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -0.13
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 28.9 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 43 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3731.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1680/24148436279_4b18f009bc_s.jpg
     img: https://farm2.staticflickr.com/1680/24148436279_4b18f009bc_b.jpg
     photo: https://farm2.staticflickr.com/1680/24148436279_a082c272c3_o.jpg
     h: 2290
     w: 3435
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:16
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:21:32
       exposuretime: 0.013 sec (1/75)
       fnumber: f/3.2
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:21:32
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -0.16
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 28.9 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 43 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 100%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3732.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1694/24407891732_5dc927fc3e_s.jpg
     img: https://farm2.staticflickr.com/1694/24407891732_5dc927fc3e_b.jpg
     photo: https://farm2.staticflickr.com/1694/24407891732_b4c598895f_o.jpg
     h: 2941
     w: 1961
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:17
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 14:36:32
       exposuretime: 1/2900 sec
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 14:36:32
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 7.69
       exposurecompensation: -0.33 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 44.4 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 67 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3742.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 000000000caca63e0000000036e3393facbd663f0000000000000000cdcc4c3ecdcc4c3ecdcc4c3fcdcc4c3ecdcc4c3fcdcc4c3fcdcc4c3ecdcc4c3f0000000000000000000000000100000000000000ffffffff
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1604/24490212806_c6947d48c8_s.jpg
     img: https://farm2.staticflickr.com/1604/24490212806_c6947d48c8_b.jpg
     photo: https://farm2.staticflickr.com/1604/24490212806_55b2ddc74e_o.jpg
     h: 2484
     w: 3726
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:19:18
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 15:53:55
       exposuretime: 0.001 sec (1/1500)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 15:53:55
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 6.01
       exposurecompensation: -1 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 55 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 83 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3748.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 3433b33eb81e05be85eb11bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1556/24516126535_9838fb05f1_s.jpg
     img: https://farm2.staticflickr.com/1556/24516126535_9838fb05f1_b.jpg
     photo: https://farm2.staticflickr.com/1556/24516126535_ccb1cfeefa_o.jpg
     h: 2825
     w: 4237
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:25
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 15:56:13
       exposuretime: 0.001 sec (1/1700)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 15:56:13
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 6.11
       exposurecompensation: -1 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 20.5 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 31 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3749.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 000000001861de3d08182d3cf61d693ff2a45f3f0000000000000000cc5c593e042c4d3ecea8493fec73493e527a503fcdcc4c3fbc163e3effb44c3f010000000100000001000000010000000000000001000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1471/24407792782_0f19212420_s.jpg
     img: https://farm2.staticflickr.com/1471/24407792782_0f19212420_b.jpg
     photo: https://farm2.staticflickr.com/1471/24407792782_939521c02e_o.jpg
     h: 3264
     w: 2460
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:28
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 15:59:12
       exposuretime: 0.013 sec (1/80)
       fnumber: f/3.6
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 15:59:12
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: -0.04
       exposurecompensation: -1 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 34.3 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 51 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3753.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 20856b3ef6281cbf000080bf
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1528/23889267263_68c84ac014_s.jpg
     img: https://farm2.staticflickr.com/1528/23889267263_68c84ac014_b.jpg
     photo: https://farm2.staticflickr.com/1528/23889267263_8627f2f2af_o.jpg
     h: 4973
     w: 2613
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:30
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 16:07:59
       exposuretime: 0.029 sec (1/34)
       fnumber: f/4.5
+      exposureprogram: Aperture-priority AE
       iso: 3200
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 16:07:59
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 0.21
       exposurecompensation: 0 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 18 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 27 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3769.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 5
+      history_enabled: 1
+      history_operation: clipping
+      history_params: 000000000347283e01a7b4325d83573ffeff7f3f00000000000000006088753eccc14d3ee89d423fc795513e2413503fcdcc4c3f72b33f3e8d8f4c3f010000000100000001000000010000000000000000000000
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS
   - thumb: https://farm2.staticflickr.com/1537/24407875122_8bf5347081_s.jpg
     img: https://farm2.staticflickr.com/1537/24407875122_8bf5347081_b.jpg
     photo: https://farm2.staticflickr.com/1537/24407875122_ab58104ee6_o.jpg
     h: 3264
     w: 4896
     exif:
+      jfifversion: 1.01
+      resolutionunit: None
+      xresolution: 1
+      yresolution: 1
+      make: FUJIFILM
       model: FUJIFILM X-T10
+      orientation: Horizontal (normal)
+      software: darktable 1.4
       modifydate: 2016:01:21 10:18:21
+      ycbcrpositioning: Co-sited
+      rating: 1
+      ratingpercent: 20
       datetimeoriginal: 2015:10:18 15:51:52
       exposuretime: 0.002 sec (1/480)
       fnumber: f/4.0
+      exposureprogram: Aperture-priority AE
       iso: 800
+      sensitivitytype: Standard Output Sensitivity
+      exifversion: 0230
+      createdate: 2015:10:18 15:51:52
+      componentsconfiguration: Y, Cb, Cr, -
+      compressedbitsperpixel: 4.8
+      brightnessvalue: 5.07
       exposurecompensation: 0 EV
+      maxaperturevalue: 2.8
+      meteringmode: Multi-segment
+      lightsource: Unknown
+      flash: Off, Did not fire
       focallength: 18 mm
+      flashpixversion: 0100
+      colorspace: sRGB
+      focalplanexresolution: 2092
+      focalplaneyresolution: 2092
+      focalplaneresolutionunit: cm
+      sensingmethod: One-chip color area
+      filesource: Digital Camera
+      scenetype: Directly photographed
+      customrendered: Normal
+      exposuremode: Auto
+      whitebalance: Auto
       focallengthin35mmformat: 27 mm
+      scenecapturetype: Standard
+      sharpness: Normal
+      subjectdistancerange: Unknown
+      lensinfo: 18-55mm f/2.8-4
+      lensmake: FUJIFILM
+      lensserialnumber: 52M01842
+      version: 0130
+      internalserialnumber: YET EA741999     593531303034 2015:05:20 4849301107C6
+      quality: FINE   
+      saturation: Normal
+      whitebalancefinetune: Red +0, Blue +0
+      noisereduction: n/a
+      highisonoisereduction: Normal
+      fujiflashmode: Off
+      flashexposurecomp: 1
+      focusmode: Auto
+      afpointset: Yes
+      focuspixel: 2448 1632
+      slowsync: Off
+      picturemode: Aperture-priority AE
+      exposurecount: 1
+      shadowtone: Normal
+      highlighttone: Normal
+      autobracketing: Off
+      sequencenumber: 0
+      blurwarning: None
+      focuswarning: Good
+      exposurewarning: Good
+      dynamicrange: Standard
+      filmmode: F2/Fujichrome (Velvia)
+      dynamicrangesetting: Auto (100-400%)
+      minfocallength: 18
+      maxfocallength: 55
+      maxapertureatminfocal: 2.8
+      maxapertureatmaxfocal: 4
+      autodynamicrange: 200%
+      imagestabilization: Optical; On (mode 2, shooting only); 0
+      imagegeneration: Original Image
+      facesdetected: 0
+      interopindex: R98 - DCF basic file (sRGB)
+      interopversion: 0100
+      printimversion: 0250
+      xmptoolkit: XMP Core 4.4.0-Exiv2
+      derivedfrom: DSCF3746.JPG
+      xmp_version: 1
+      raw_params: 0
+      auto_presets_applied: 1
+      colorlabels: 2
+      history_modversion: 1
+      history_enabled: 1
+      history_operation: colisa
+      history_params: 000080be5c8fc2be703d8abe
+      blendop_params: gz12eJxjYGBgkGAAgRNODESDBnsIHll8ANNSGQM=
+      blendop_version: 7
+      multi_priority: 0
+      lens: XF18-55mmF2.8-4 R LM OIS

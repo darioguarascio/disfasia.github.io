@@ -16,7 +16,7 @@ layout: default
             <span>{{site.countries[page.country].name}} &mdash; {{post_year}} &mdash; {{ site.data[page_id].size }} photos</span>
         </div>
         <div class="col-xs-12 col-md-4">
-            <div id="world-map-markers" data-country="{{ page.country }}" data-lat="{{ page.coords.lat }}" data-lng="{{ page.coords.lng }}"></div>
+            <div id="world-map-markers" data-country="{{ page.country }}" data-coords="{% for coord in page.mulitcoords %}{{ coord.lat}},{{coord.lng}};{%endfor%}" data-lat="{{ page.coords.lat }}" data-lng="{{ page.coords.lng }}"></div>
         </div>
     </div>
     <div class="row">
@@ -69,7 +69,7 @@ layout: default
 
             <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
                 {% for photo in site.data[page_id] %}
-                <figure class="col-md-2 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-title="{{ page.title }} - photo #{{ photoNumber }} " data-singleurl="{{site.url}}/{{ page_id}}/{{ photoNumber}}/">
+                <figure class="col-lg-2 col-md-2 col-sm-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-title="{{ page.title }} - photo #{{ photoNumber }} " data-singleurl="{{site.url}}/{{ page_id}}/{{ photoNumber}}/">
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
                         <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="xxx" />
                     </a>

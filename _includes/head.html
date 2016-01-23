@@ -11,7 +11,7 @@
     {% capture post_year %}{{ page.date | date: "%Y" }}{% endcapture %}
     <title>{{ page.title }}, {{site.countries[page.country].name}}, {{ post_year }} - {{ site.data[page_id].size }} photos # disf.asia</title>
     <meta property="og:title" content="Photos in {{ page.title }}, {{site.countries[page.country].name}}">
-    <meta property="og:description" content="Location: {{ page.title }} - {{ site.data[page_id].size }} photos taken in {{ post_year }}">
+    <meta property="og:description" content="Location: {% if page.location %}{{page.location}}{%else%}{{ page.title }}{%endif%} - {{ site.data[page_id].size }} photos taken in {{ post_year }}">
     <meta property="og:image" content="{{ page.thumb | replace: '_n.', '_b.' }}">
 {% elsif page.page_type == 'photo' %}
 {% capture page_id %}{{ page.categories }}{% endcapture %}

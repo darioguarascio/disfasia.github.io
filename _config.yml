@@ -20,32 +20,61 @@ years: ["2006","2007","2008","2009","2010","2011","2012","2013","2014","2015","2
 countries:
   AT:
     name: Austria
-  CH:
-    name: Switzerland
+    url: austria
+    code: AT
+  KH:
+    name: Cambodia
+    url: cambodia
+    code: KH
   CZ:
     name: Czech Republic
-  DE:
-    name: Germany
-  ES:
-    name: Spain
+    url: czech-republic
+    code: CZ
   FR:
     name: France
+    url: france
+    code: FR
+  DE:
+    name: Germany
+    url: germany
+    code: DE
   IT:
     name: Italy
+    url: italy
+    code: IT
   LA:
     name: Laos
+    url: laos
+    code: LA
   NL: 
     name: Netherlands
+    url: netherlands
+    code: NL
   PT:
     name: Portugal
-  UK:
-    name: United Kingdom
-  US:
-    name: United States
+    url: portugal
+    code: PT
+  ES:
+    name: Spain
+    url: spain
+    code: ES
+  CH:
+    name: Switzerland
+    url: switzerland
+    code: CH
   TH:
     name: Thailand
     url: thailand
+    code: TH
+  GB:
+    name: United Kingdom
+    url: united-kingdom
+    code: GB
+  US:
+    name: United States
+    url: united-states
+    code: US
   VN:
     name: Vietnam
-  KH:
-    name: Cambodia
+    url: vietnam
+    code: VN

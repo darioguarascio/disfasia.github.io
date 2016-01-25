@@ -1,6 +1,12 @@
 ---
-page_type: country
 layout: default
 ---
-
-asdsa
+<div id="main_container" class="container">
+    <div class="row">
+        {% for post in site.posts %}
+            {% if post.country == page.country or page.year == "all" %}
+	            {% include tile.html %}
+	        {% endif %}
+        {% endfor %}
+    </div>
+</div>

@@ -170,6 +170,21 @@
       timezone: +01:00
       lens: 50mm f/1.8
       shuttercount: 7138
+  - thumb: https://farm2.staticflickr.com/1682/24345576500_3b03b49705_s.jpg
+    img: https://farm2.staticflickr.com/1682/24345576500_3b03b49705_b.jpg
+    photo: https://farm2.staticflickr.com/1682/24345576500_685c75eac1_o.jpg
+    h: 1475
+    w: 2212
+    exif:
+      model: NIKON D90
+      modifydate: 2016:01:27 08:29:16
+      datetimeoriginal: 2009:07:05 19:00:29
+      exposuretime: 0.008 sec (1/125)
+      fnumber: f/5.6
+      iso: 360
+      exposurecompensation: 0 EV
+      focallength: 48 mm
+      focallengthin35mmformat: 72 mm
   - thumb: https://farm2.staticflickr.com/1670/24620794625_2bf2007d59_s.jpg
     img: https://farm2.staticflickr.com/1670/24620794625_2bf2007d59_b.jpg
     photo: https://farm2.staticflickr.com/1670/24620794625_fba6c93ebd_o.jpg
@@ -208,6 +223,44 @@
       timezone: +01:00
       lens: 50mm f/1.8
       shuttercount: 6857
+  - thumb: https://farm2.staticflickr.com/1639/24012863104_5a0d4e6e3c_s.jpg
+    img: https://farm2.staticflickr.com/1639/24012863104_5a0d4e6e3c_b.jpg
+    photo: https://farm2.staticflickr.com/1639/24012863104_bcc6514812_o.jpg
+    h: 2848
+    w: 4288
+    exif:
+      model: NIKON D90
+      modifydate: 2016:01:27 08:19:14
+      datetimeoriginal: 2010:01:09 17:18:20
+      exposuretime: 0.001 sec (1/1000)
+      fnumber: f/1.8
+      iso: 400
+      exposurecompensation: 0 EV
+      focallength: 50.4 mm
+      focallengthin35mmformat: 75 mm
+      focusmode: AF-S
+      timezone: +01:00
+      lens: 50mm f/1.8
+      shuttercount: 7674
+  - thumb: https://farm2.staticflickr.com/1592/24273346019_0ef971f3fb_s.jpg
+    img: https://farm2.staticflickr.com/1592/24273346019_0ef971f3fb_b.jpg
+    photo: https://farm2.staticflickr.com/1592/24273346019_4036f1569f_o.jpg
+    h: 2848
+    w: 4288
+    exif:
+      model: NIKON D90
+      modifydate: 2016:01:27 08:25:11
+      datetimeoriginal: 2009:12:31 13:53:09
+      exposuretime: 0.003 sec (1/320)
+      fnumber: f/3.2
+      exposurecompensation: 0 EV
+      focallength: 50.4 mm
+      focallengthin35mmformat: 75 mm
+      focusmode: AF-S
+      timezone: +01:00
+      iso: 159
+      lens: 50mm f/1.8
+      shuttercount: 7454
   - thumb: https://farm2.staticflickr.com/1671/23992622444_1f4b09d0ce_s.jpg
     img: https://farm2.staticflickr.com/1671/23992622444_1f4b09d0ce_b.jpg
     photo: https://farm2.staticflickr.com/1671/23992622444_cd1563ba1e_o.jpg

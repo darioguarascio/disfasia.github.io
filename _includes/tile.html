@@ -15,7 +15,11 @@
 {% else %}
    {% assign post_style = post.style %}
    {% assign post_url   = post.url %}
-   {% assign post_title = post.title %}
+   {% if post.tile_title %}
+       {% assign post_title = post.tile_title %}
+   {% else %}
+       {% assign post_title = post.title %}
+   {% endif %}
    {% assign post_thumb = post.thumb %}
    {% assign base_post_css = "simple_tile" %}
 {% endif %}

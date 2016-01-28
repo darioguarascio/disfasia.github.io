@@ -256,7 +256,7 @@ $(function() {
 
                 // define options (if needed)
                 options = {
-                    history: false,
+                    history: true,
                     // define gallery index (for URL)
                     galleryUID: galleryElement.getAttribute('data-pswp-uid'),
 
@@ -301,7 +301,19 @@ $(function() {
 
                 // Pass data to PhotoSwipe and initialize it
                 gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+                gallery.currentTitle = document.getElementsByTagName('title')[0].innerHTML;
                 gallery.init();
+                gallery.listen('afterChange', function() {
+                    var photoNumber = this.getCurrentIndex() + 1;
+                    document.getElementsByTagName('title')[0].innerHTML = photoNumber + ' - ' + this.currentTitle;
+                    if (!!ga) {
+                        ga('send', 'pageview', location.pathname + '/slide-' + photoNumber);
+                    }
+                });
+                gallery.listen('close', function() {
+                    document.getElementsByTagName('title')[0].innerHTML = this.currentTitle;
+                });
+                gallery.shout('afterChange');
             };
 
             // loop through all gallery elements and bind events

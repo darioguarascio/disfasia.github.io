@@ -54,6 +54,10 @@ countries:
     name: Portugal
     url: portugal
     code: PT
+  SK:
+    name: Slovakia
+    url: slovakia
+    code: SK
   ES:
     name: Spain
     url: spain

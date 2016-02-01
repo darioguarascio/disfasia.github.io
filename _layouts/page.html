@@ -71,7 +71,7 @@ layout: default
                 {% for photo in site.data[page_id] %}
                 <figure class="col-lg-2 col-md-2 col-sm-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-title="{{ page.title }} - photo #{{ photoNumber }} " data-singleurl="{{site.url}}/{{ page_id}}/{{ photoNumber}}/">
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
-                        <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="xxx" />
+                        <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="#{{ photoNumber }}" title="#{{ photoNumber }}" />
                     </a>
                     <figcaption itemprop="caption description">{{ photo.exif.model }} &mdash; {%if photo.exif.fnumber%}{{photo.exif.fnumber}}; {%endif%}{%if photo.exif.focallengthin35mmformat%}{{photo.exif.focallengthin35mmformat}}; {%endif%}{%if photo.exif.exposuretime%}{{photo.exif.exposuretime}}; {%endif%} {%if photo.exif.iso%}ISO: {{photo.exif.iso}}; {%endif%} <a href="/{{page_id}}/{{photoNumber}}/">#{{photoNumber}} in {{ page.title }}</a></figcaption>
                 </figure>

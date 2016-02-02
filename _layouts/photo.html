@@ -20,7 +20,7 @@ layout: default
         {% for photo in site.data[page_id] %}
         	{% if photoNumber != page.n %}
 		<figure class="col-lg-2 col-md-2 col-sm-4 col-xs-6" class="col-lg-2 col-md-2 col-sm-4 col-xs-6"  style="padding-top: 15px;padding-bottom: 15px;">
-            <a href="/{{ page_id}}/{{ photoNumber}}">
+            <a href="/pics/{{ page_id }}/{{ photoNumber}}">
                 <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="" />
             </a>
 		</figure>

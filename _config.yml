@@ -9,7 +9,7 @@ paginate_path: ":num"
 
 # Build settings
 markdown: kramdown
-permalink: :categories/:title
+permalink: :title
 
 gems: ['jekyll-paginate']
 

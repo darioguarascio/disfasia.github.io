@@ -2,7 +2,7 @@
 <html lang="en">
   {% include head.html %}
 
-  <body id="t_{{page.page_type}}">
+  <body id="t_{{layout.page_type}}">
 
 	{% include header.html %}
 
@@ -15,8 +15,8 @@
         <div class="row">
           <div class="col-xs-6 col-md-4">
             <ul class="list-unstyled">
-                <li><a href="/countries.html">{{ site.countries.size }} countries</a></li>
-                <li><a href="/years.html">{{ site.years.size }} years</a></li>
+                <li><a href="/countries">{{ site.countries.size }} countries</a></li>
+                <li><a href="/years">{{ site.years.size }} years</a></li>
             </ul>
           </div>
         </div>

@@ -11,7 +11,7 @@ paginate_path: ":num"
 markdown: kramdown
 permalink: :categories/:title
 
-gems: ['jekyll-less']
+gems: ['jekyll-paginate']
 
 lessc: /usr/local/bin/lessc
 

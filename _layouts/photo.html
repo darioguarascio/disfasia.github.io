@@ -8,7 +8,7 @@ layout: default
 {% assign photoNumber = 1 %}
 <article class="container" style="margin-bottom: 20px;
     padding-bottom: 10px;">
-	<h1><a href="{{ page_parent }}/">{{page.parent_title }}</a>: #{{ page.n }}</h1>
+	<h1><a href="{{ page_parent }}">{{page.parent_title }}</a>: #{{ page.n }}</h1>
 	<img src="{{ site.data[page_id][index].photo }}" style="width: 100%; height: auto; border: 7px solid black"/>
     <!--
     <p class="meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
@@ -20,7 +20,7 @@ layout: default
         {% for photo in site.data[page_id] %}
         	{% if photoNumber != page.n %}
 		<figure class="col-lg-2 col-md-2 col-sm-4 col-xs-6" class="col-lg-2 col-md-2 col-sm-4 col-xs-6"  style="padding-top: 15px;padding-bottom: 15px;">
-            <a href="/{{ page_id}}/{{ photoNumber}}/">
+            <a href="/{{ page_id}}/{{ photoNumber}}">
                 <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="" />
             </a>
 		</figure>

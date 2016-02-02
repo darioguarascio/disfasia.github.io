@@ -69,7 +69,7 @@ layout: default
 
             <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
                 {% for photo in site.data[page_id] %}
-                <figure class="col-lg-2 col-md-2 col-sm-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-title="{{ page.title }} - photo #{{ photoNumber }} " data-singleurl="{{site.url}}/{{ page_id}}/{{ photoNumber}}/">
+                <figure class="col-lg-2 col-md-2 col-sm-4 col-xs-6" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" data-title="{{ page.title }} - photo #{{ photoNumber }} " data-singleurl="{{site.url}}/pics/{{ page_id }}/{{ photoNumber}}">
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
                         <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="#{{ photoNumber }}" title="#{{ photoNumber }}" />
                     </a>

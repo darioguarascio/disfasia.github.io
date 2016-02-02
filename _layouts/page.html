@@ -73,7 +73,7 @@ layout: default
                     <a href="{{photo.img}}" itemprop="contentUrl" data-size="{{ photo.w }}x{{ photo.h }}">
                         <img src="{{photo.thumb  | replace: '_s.','_q.' }}" itemprop="thumbnail" alt="#{{ photoNumber }}" title="#{{ photoNumber }}" />
                     </a>
-                    <figcaption itemprop="caption description">{{ photo.exif.model }} &mdash; {%if photo.exif.fnumber%}{{photo.exif.fnumber}}; {%endif%}{%if photo.exif.focallengthin35mmformat%}{{photo.exif.focallengthin35mmformat}}; {%endif%}{%if photo.exif.exposuretime%}{{photo.exif.exposuretime}}; {%endif%} {%if photo.exif.iso%}ISO: {{photo.exif.iso}}; {%endif%} <a href="/{{page_id}}/{{photoNumber}}/">#{{photoNumber}} in {{ page.title }}</a></figcaption>
+                    <figcaption itemprop="caption description">{{ photo.exif.model }} &mdash; {%if photo.exif.fnumber%}{{photo.exif.fnumber}}; {%endif%}{%if photo.exif.focallengthin35mmformat%}{{photo.exif.focallengthin35mmformat}}; {%endif%}{%if photo.exif.exposuretime%}{{photo.exif.exposuretime}}; {%endif%} {%if photo.exif.iso%}ISO: {{photo.exif.iso}}; {%endif%} <a href="{{site.url}}/pics/{{ page_id }}/{{ photoNumber}}">#{{photoNumber}} in {{ page.title }}</a></figcaption>
                 </figure>
                 {% assign photoNumber = photoNumber | plus: 1 %}
                 {% endfor %}

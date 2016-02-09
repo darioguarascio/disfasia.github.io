@@ -10,6 +10,11 @@
     <meta property="og:title" content="disfasia: incapable of speech">
     <meta property="og:description" content="collection of pictures">
     <meta property="og:image" content="{{ site.url }}/img/logog.png">
+{% elsif page.name == 'countries.html' %}
+    <title>Countries # disf.asia</title>
+    <meta property="og:title" content="Countries # disfasia">
+    <meta property="og:description" content="visited countries">
+    <meta property="og:image" content="{{ site.url }}/img/logog.png">
 
 {% elsif layout.page_type == 'album' %}
     {% assign page_id = page.url | split: '/' %}

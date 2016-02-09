@@ -37,7 +37,83 @@ $(document).ready(function() {
 });
 
 $(function() {
-    if ($('body#t_album').size()) {
+    if ($('body[data-type=countries]').size()) {
+        region_values = {};
+        country_list = country_list.split(',')
+        for (r  in country_list) {
+            if (!!country_list[r]) {
+                region_values[ country_list[r] ] = '#D5E4CA';
+            }
+        }
+
+        $('#world-map-markers').vectorMap({
+            zoomMax: 22,
+            zoomMin: 1,
+            //panOnDrag: false,
+            //zoomOnScroll: false,
+            //panOnDrag: false,
+            zoomButtons: false,
+
+            onRegionLabelShow: function(e, el, code) {
+                e.preventDefault();
+            },
+            onRegionTipShow: function(e, el, code) {
+                if ($('#main_container .tile a[data-country='+code+']').size() == 0) {
+                    e.preventDefault();
+                }
+            },
+            onMarkerTipShow: function(e, label, code) {
+                e.preventDefault();
+            },
+            map: 'world_mill_en',
+            scaleColors: ['#C8EEFF', '#0071A4'],
+            normalizeFunction: 'polynomial',
+            hoverOpacity: 0.7,
+            hoverColor: false,
+            markerStyle: {
+                initial: {
+                    fill: '#f4a460',
+                    stroke: '#383f47',
+                    "fill-opacity": 1,
+                    "stroke-width": 1,
+                    "stroke-opacity": 1,
+                    r: 5
+                }
+            },
+            regionStyle: {
+                initial: {
+                    fill: '#8E9688'
+                },
+                selected: {
+                    fill: '#8E9688'
+                },
+                hover: {
+                    "fill-opacity": 1
+                }
+            },
+            // focusOn: {
+            //     lat: markers_values[0].latLng[0],
+            //     lng: markers_values[0].latLng[1],
+            //     scale: 12
+            // },
+
+
+            series: {
+                regions: [{
+                    values: region_values,
+                    attribute: 'fill'
+                }]
+            },
+            backgroundColor: '#383f47',
+            //markers: markers_values
+        });
+
+
+
+
+    }
+
+    if ($('body#t_album[data-type=""]').size()) {
 
         var country = $('#world-map-markers').data('country');
         var region_values = {}, markers_values = [];

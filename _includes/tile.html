@@ -25,7 +25,7 @@
 {% endif %}
 
 <div class="tile">
-    <a data-coords="{{post.coords.lat}},{{post.coords.lng}}" class="post {{ base_post_css }} {{ post_style }}" href="{{ post_url }}" style="{% if post_thumb %}background-image: url({{ post_thumb }}){% endif %}">
+    <a data-coords="{{post.coords.lat}},{{post.coords.lng}}" {% if include.country %}data-country="{{include.country}}"{%endif%}class="post {{ base_post_css }} {{ post_style }}" href="{{ post_url }}" style="{% if post_thumb %}background-image: url({{ post_thumb }}){% endif %}">
         <div class="tile_preview">
             <span{%if post.tile_text_extra_css%} style="{{post.tile_text_extra_css}}"{%endif%}>{{ post_title }}</span>
         </div>

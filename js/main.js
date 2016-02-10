@@ -111,7 +111,7 @@ $(function() {
 
 
 
-    if ($('body#t_country[data-type=]').size()) {
+    if ($('body[data-type=country]').size()) {
         var region_values = {};
         region_values[country_code] = '#D5E4CA';
 

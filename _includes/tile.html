@@ -9,7 +9,7 @@
    {% if wordCount == 1 %}{% assign post_style = "single_word" %}{%endif%}
    {% if wordCount == 2 %}{% assign post_style = "two_words" %}{%endif%} 
    {% capture post_style %}{{ post_style }} flag flag-icon-background flag-icon-{{ include.country | downcase }}{% endcapture %}
-   {% capture post_url %}/country/{{ site.countries[include.country].url }}/{% endcapture %}
+   {% capture post_url %}/country/{{ site.countries[include.country].url }}{% endcapture %}
    {% assign post_title = site.countries[include.country].name %}
    {% assign base_post_css = "flag" %}
 {% else %}
@@ -25,7 +25,7 @@
 {% endif %}
 
 <div class="tile">
-    <a data-coords="{{post.coords.lat}},{{post.coords.lng}}" {% if include.country %}data-country="{{include.country}}"{%endif%}class="post {{ base_post_css }} {{ post_style }}" href="{{ post_url }}" style="{% if post_thumb %}background-image: url({{ post_thumb }}){% endif %}">
+    <a data-coords="{% if post.coords %}{{post.coords.lat}},{{post.coords.lng}}{% else %}{% for coord in post.mulitcoords %}{{ coord.lat}},{{coord.lng}};{%endfor%}{%endif%}" {% if include.country %}data-country="{{include.country}}"{%endif%}class="post {{ base_post_css }} {{ post_style }}" href="{{ post_url }}" style="{% if post_thumb %}background-image: url({{ post_thumb }}){% endif %}">
         <div class="tile_preview">
             <span{%if post.tile_text_extra_css%} style="{{post.tile_text_extra_css}}"{%endif%}>{{ post_title }}</span>
         </div>

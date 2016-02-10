@@ -107,11 +107,91 @@ $(function() {
             backgroundColor: '#383f47',
             //markers: markers_values
         });
-
-
-
-
     }
+
+
+
+    if ($('body#t_country[data-type=]').size()) {
+        var region_values = {};
+        region_values[country_code] = '#D5E4CA';
+
+        markers_values = [];
+        $('.tile a').each(function(i, el) {
+            var coords = $(el).data('coords').split(';');
+            for (i in coords) {
+                if (!coords[i]) continue;
+                latLng = coords[i].split(',');
+                markers_values.push({
+                    latLng: [latLng[0], latLng[1]]
+                });
+            }
+        });
+        $('#world-map-markers').vectorMap({
+            zoomMax: 22,
+            zoomMin: 1,
+            //panOnDrag: false,
+            //zoomOnScroll: false,
+            //panOnDrag: false,
+            zoomButtons: false,
+
+            onRegionLabelShow: function(e, el, code) {
+                e.preventDefault();
+            },
+            onRegionTipShow: function(e, el, code) {
+                if ($('#main_container .tile a[data-country='+code+']').size() == 0) {
+                    e.preventDefault();
+                }
+            },
+            onMarkerTipShow: function(e, label, code) {
+                e.preventDefault();
+            },
+            map: 'world_mill_en',
+            scaleColors: ['#C8EEFF', '#0071A4'],
+            normalizeFunction: 'polynomial',
+            hoverOpacity: 0.7,
+            hoverColor: false,
+            markerStyle: {
+                initial: {
+                    fill: '#f4a460',
+                    stroke: '#383f47',
+                    "fill-opacity": 1,
+                    "stroke-width": 1,
+                    "stroke-opacity": 1,
+                    r: 5
+                }
+            },
+            regionStyle: {
+                initial: {
+                    fill: '#8E9688'
+                },
+                selected: {
+                    fill: '#8E9688'
+                },
+                hover: {
+                    "fill-opacity": 1
+                }
+            },
+            focusOn: {
+                region: country_code,
+                scale: 20
+            },
+
+            series: {
+                regions: [{
+                    values: region_values,
+                    attribute: 'fill'
+                }]
+            },
+            backgroundColor: '#383f47',
+            markers: markers_values
+        });
+    }
+
+
+
+
+
+
 
     if ($('body#t_album[data-type=""]').size()) {
 

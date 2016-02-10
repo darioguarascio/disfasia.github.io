@@ -1,7 +1,19 @@
 ---
+page_type: country
 layout: default
 ---
 <div id="main_container" class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h1>{{ site.countries[page.country].name }}</h1>
+        <span></span>
+      </div>
+      <div class="col-md-6">
+        <div id="world-map-markers" style="height:150px"></div>
+      </div>
+    </div>
+
+
     <div class="row">
         {% for post in site.posts %}
             {% if post.country == page.country or page.year == "all" %}
@@ -10,3 +22,7 @@ layout: default
         {% endfor %}
     </div>
 </div>
+
+<script type="text/javascript">
+var country_code = "{{ page.country }}";
+</script>

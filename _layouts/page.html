@@ -13,7 +13,7 @@ layout: default
     <div class="row album_info">
         <div class="col-xs-12 col-md-8">
             <h1>{{ page.title }}</h1>
-            <span>{{site.countries[page.country].name}} &mdash; {{post_year}} &mdash; {{ site.data[page_id].size }} photos</span>
+            <span><a href="/country/{{site.countries[page.country].url}}">{{site.countries[page.country].name}}</a> &mdash; {{post_year}} &mdash; {{ site.data[page_id].size }} photos</span>
         </div>
         <div class="col-xs-12 col-md-4">
             <div id="world-map-markers" data-country="{{ page.country }}" data-coords="{% for coord in page.mulitcoords %}{{ coord.lat}},{{coord.lng}};{%endfor%}" data-lat="{{ page.coords.lat }}" data-lng="{{ page.coords.lng }}"></div>
